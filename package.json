@@ -1,0 +1,42 @@
+{
+  "name": "weather-cli",
+  "version": "0.0.1",
+  "description": "Weather CLI tool",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix --verbose | snazzy",
+    "test": "npm run lint && ava test/*"
+  },
+  "bin": {
+    "weather": "./weather-cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "got": "^9.6.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "standard": "^12.0.1",
+    "snazzy": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliota43/weather-cli.git"
+  },
+  "keywords": [
+    "weather",
+    "command line application",
+    "nodejs",
+    "api",
+    "geolocator",
+    "weather report",
+    "javascript"
+  ],
+  "author": "Elliot Anderson <ela43@drexel.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliota43/weather-cli/issues"
+  },
+  "homepage": "https://github.com/elliota43/weather-cli#readme"
+}
